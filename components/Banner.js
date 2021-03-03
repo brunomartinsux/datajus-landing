@@ -7,12 +7,11 @@ const BannerSection = styled.section`
     display:flex;
     flex-direction:column;
     height:450px;
-    align-items:start;
-    text-align:start;
+    align-items:center;
+    text-align:center;
     justify-content:center;
     font-size:25px;
     margin-left:5%;
-    width:30%;
 
 `
 
@@ -30,6 +29,7 @@ const Button = styled.button`
     font-size:20px;
 
     &:hover {
+        background-color: #fff;
         color: #000;
       }
 `
