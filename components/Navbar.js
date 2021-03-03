@@ -4,10 +4,11 @@ import Link from 'next/link'
 const Nav = styled.nav`
 
     height: 60px;
-    background-color: white;
+    background-color: #000;
     justify-content: space-between;
     display:flex;
     position: fixed;
+    color:#fff;
     width: 100%;
     margin-bottom:10%;
     box-shadow: 5px 3px 20px #0001;
@@ -16,7 +17,7 @@ const Nav = styled.nav`
 
 const Logo = styled.h1`
     margin-left: 5%;
-    color: black;
+    color: #fff;
 
     & :hover {
         cursor:pointer;
@@ -24,27 +25,27 @@ const Logo = styled.h1`
 `
 const Menu = styled.div`
 
-    width:30%;
+    width:40%;
     margin-right:5%;
     display:flex;
     justify-content:space-evenly;
     align-self:center;
     font-weight: 500px;
-    font-size:12px;
+    font-size:15px;
 
 `
 const Button = styled.button`
 
     cursor:pointer;
-    border:1;
+    border:true;
     border-radius:10px;
-    color: #1C74D9;
+    color: #fff;
     margin-top:10px;
     width: 150px;
-    height: 30px;
-    background: #fff;
+    height: 40px;
+    background: transparent;
     font-weight:bold;
-    border-color: #1C74D9;
+    border-color: #fff;
     font-size:20px;
 
     &:hover {

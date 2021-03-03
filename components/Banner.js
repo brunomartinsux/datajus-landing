@@ -6,12 +6,13 @@ const BannerSection = styled.section`
     font-family: 'Ubuntu';
     display:flex;
     flex-direction:column;
-    height:450px;
+    height:600px;
     align-items:center;
     text-align:center;
     justify-content:center;
     font-size:25px;
-    margin-left:5%;
+    background-color: #000;
+    color: #fff
 
 `
 
@@ -33,13 +34,19 @@ const Button = styled.button`
         color: #000;
       }
 `
+const Container = styled.section`
+
+      width:40%
+`
 
 function Banner(){
 
     return(
         <BannerSection>
-            <h1>{JSON.titulo}</h1>
+            <Container>
+            <h1>{JSON.titulo}</h1>    
             <a>{JSON.subtitulo}</a>
+            </Container>
             <Button>Saiba mais</Button>
         </BannerSection>
     )

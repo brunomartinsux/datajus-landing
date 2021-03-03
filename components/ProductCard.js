@@ -12,6 +12,7 @@ const Card = styled.section`
     text-align: start;
     font-size:22px;
     justify-content: center;
+    margin-top:-100px;
 
 `
 
