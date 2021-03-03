@@ -9,7 +9,6 @@ const Product = styled.section`
     margin-left:8%;
     margin-right:8%;
     margin-top:1%;
-    margin-bottom:10%;
     border-radius:2px;
 
 `

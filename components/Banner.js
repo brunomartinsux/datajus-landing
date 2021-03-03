@@ -6,11 +6,13 @@ const BannerSection = styled.section`
     font-family: 'Ubuntu';
     display:flex;
     flex-direction:column;
-    height:350px;
-    align-items:center;
-    text-align:center;
+    height:450px;
+    align-items:start;
+    text-align:start;
     justify-content:center;
     font-size:25px;
+    margin-left:5%;
+    width:30%;
 
 `
 
@@ -18,16 +20,17 @@ const Button = styled.button`
 
     cursor:pointer;
     border:0;
-    border-radius:5px;
-    margin-top:20px;
-    max-width: 200px;
-    background: #0001;
-    color: #000;
+    border-radius:10px;
+    color: #fff;
+    margin-top:10px;
+    width: 150px;
+    height: 40px;
+    background: #1C74D9;
     font-weight:bold;
     font-size:20px;
 
     &:hover {
-        color: #fff;
+        color: #000;
       }
 `
 

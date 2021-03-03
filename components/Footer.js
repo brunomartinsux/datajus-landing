@@ -4,7 +4,7 @@ import styled from 'styled-components'
 const Foot = styled.section`
     
     bottom:0;
-    height: 40px;
+    height: 20px;
     color:#fff;
     background: black;
     display:flex;
@@ -12,13 +12,13 @@ const Foot = styled.section`
     position: fixed;
     left: 0;
     bottom: 0;
-    width: 100%;
+    width: 15%;
     
 `
 
 const FootText = styled.h2`
     
-    font-size: 20px;
+    font-size: 12px;
     align-self: center;
 
 `

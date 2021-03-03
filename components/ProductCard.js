@@ -3,13 +3,15 @@ import styled from 'styled-components'
 const Card = styled.section`
 
     display: flex;
-    background-color: #0001;
+    background-color: #fff;
     border-radius:15px;
     width: 400px;
     height:300px;
-    box-shadow: 5px 3px 10px #0003;
+    box-shadow: 5px 3px 10px #0002;
     flex-direction: column;
-    text-align: center;
+    text-align: start;
+    font-size:22px;
+    justify-content: center;
 
 `
 
