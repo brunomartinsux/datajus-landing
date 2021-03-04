@@ -1,4 +1,9 @@
-{
-    "titulo": "Lorem ipsum dolor sit amet, consectetur adipiscing. Risus aliquet.",
-    "subtitulo": "Consultores especializados somados a jurimetria e ciência de dados são a chave para um bom amparo jurídico."
+{   "Banner1":{
+        "titulo": "Lorem ipsum dolor sit amet, consectetur adipiscing. Risus aliquet.",
+        "subtitulo": "Consultores especializados somados a jurimetria e ciência de dados são a chave para um bom amparo jurídico."
+    },
+    "Banner2":{ 
+        "titulo": "Lorem ipsum dolor sit amet, consectetur adipiscing. Risus aliquet.",
+        "subtitulo":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mattis eu at vitae purus velit viverra et, penatibus. Dolor turpis magna egestas et eget et. Eu tortor enim ac tincidunt dictumst id. Ut netus hac rutrum augue."
+    }
 }

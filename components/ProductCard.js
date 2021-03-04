@@ -7,12 +7,12 @@ const Card = styled.section`
     border-radius:15px;
     width: 400px;
     height:300px;
-    box-shadow: 5px 3px 10px #0002;
+    box-shadow: 5px 5px 10px #0001;
     flex-direction: column;
     text-align: start;
     font-size:22px;
     justify-content: center;
-    margin-top:-100px;
+    margin-top:-140px;
 
 `
 
