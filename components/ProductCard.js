@@ -9,10 +9,12 @@ const Card = styled.section`
     height:300px;
     box-shadow: 5px 5px 10px #0001;
     flex-direction: column;
-    text-align: start;
+    text-align: center;
     font-size:22px;
     justify-content: center;
     margin-top:-140px;
+    color: #1E2327;
+
 
 `
 

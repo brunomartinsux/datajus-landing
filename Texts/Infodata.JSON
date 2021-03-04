@@ -1,0 +1,18 @@
+{
+    "card1":{
+        "titulo": "88",
+        "subtitulo": "Lorem ipsum sit amet, consectetur adipiscing. "
+    },
+    "card2":{
+        "titulo": "+40 milhões",
+        "subtitulo": "Lorem ipsum sit amet, consectetur adipiscing. "
+    },
+    "card3":{
+        "titulo": "30 minutos",
+        "subtitulo": "Lorem ipsum sit amet, consectetur adipiscing. "
+    },
+    "card4":{
+        "titulo": "+1700",
+        "subtitulo": "Lorem ipsum sit amet, consectetur adipiscing. "
+    }
+}
