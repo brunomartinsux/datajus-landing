@@ -68,13 +68,13 @@ function Form(){
     const [phone,setPhone] = useState("")
 
     const handleSubmit = () =>{
-
+            
         fire.
-        firestore().collection('lead-capture').add({
+        firestore().collection('lead_capture').add({
             nome: name,
             email: email,
             telefone: phone
-        });
+        })
 
         setEmail('')
         setPhone('')
@@ -96,7 +96,7 @@ function Form(){
                         onChange={(event) => setName(event.target.value)}
                     />
                     <Input 
-                        type="text" 
+                        type="email" 
                         label="Email" 
                         placeholder="exemplo@email.com"
                         autoFocus
@@ -107,7 +107,7 @@ function Form(){
                     <Input 
                         type="text" 
                         label="Nome" 
-                        placeholder="(00) 99999-9999"
+                        placeholder="(XX) XXXXX-XXXX"
                         autoFocus
                         required
                         value={phone}
