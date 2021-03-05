@@ -8,6 +8,7 @@
   },
   "dependencies": {
     "firebase": "^8.2.9",
+    "firebase-admin": "^9.5.0",
     "next": "latest",
     "react": "^16.8.0",
     "react-dom": "^16.8.0",

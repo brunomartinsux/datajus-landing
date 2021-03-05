@@ -4,15 +4,14 @@ import styled from 'styled-components'
 const Foot = styled.section`
     
     bottom:0;
-    height: 20px;
+    height: 100%;
     color:#fff;
     background: black;
     display:flex;
     justify-content: center;
-    position: fixed;
     left: 0;
     bottom: 0;
-    width: 15%;
+    width: 100%;
     
 `
 
