@@ -7,7 +7,15 @@
     "start": "next start"
   },
   "dependencies": {
+<<<<<<< HEAD
     "next": "^10.0.8",
+=======
+    "@sendgrid/mail": "^7.4.2",
+    "firebase": "^8.2.9",
+    "firebase-admin": "^9.5.0",
+    "firebase-tools": "^9.5.0",
+    "next": "latest",
+>>>>>>> firebase
     "react": "^16.8.0",
     "react-dom": "^16.8.0",
     "react-is": "^16.8.0",
@@ -18,3 +26,4 @@
   },
   "license": "MIT"
 }
+
