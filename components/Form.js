@@ -4,6 +4,7 @@ import fire from '../config/firebase-config'
 import 'firebase/firestore'
 
 
+
 const Container = styled.section`
     width:100%;
     display:flex;
@@ -58,24 +59,24 @@ const SubmitButton = styled.button`
     
 `
 
-    
-
-
 function Form(){
 
     const [name, setName] = useState("")
     const [email,setEmail] = useState("")
     const [phone,setPhone] = useState("")
 
-    const handleSubmit = () =>{
+    async function handleSubmit (){
             
-        fire.
-        firestore().collection('lead_capture').add({
+        const saveLead = await fire.firestore().collection('lead_capture').add({
             nome: name,
             email: email,
             telefone: phone
-        })
+        });
 
+        const EmailSender = await saveLead
+
+
+            
         setEmail('')
         setPhone('')
         setName('')
