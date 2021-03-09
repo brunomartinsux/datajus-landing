@@ -2,6 +2,7 @@ import styled from 'styled-components'
 import React, { useState } from 'react'
 import fire from '../config/firebase-config'
 import 'firebase/firestore'
+const axios = require('axios');
 
 
 
@@ -73,9 +74,12 @@ function Form(){
             telefone: phone
         });
 
-        const EmailSender = await saveLead
+        const mailer = await axios.post('localhost:3000/api/nodemailer', {})
+          .catch(function (error) {
+            console.log(error);
+          });
 
-
+        
             
         setEmail('')
         setPhone('')
